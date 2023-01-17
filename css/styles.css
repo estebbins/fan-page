@@ -21,6 +21,10 @@ body {
     column-gap: 40px;
     row-gap: 60px;
 }
+.character-cards {
+    display: grid;
+    grid-template: 1fr 4fr 1fr / repeat(2, 1fr)
+}
 #sort-options {
     grid-area: 4 / 1 / 5 / 2;
     background-color: green;
