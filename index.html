@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <title>True Blood Fan-page</title>
 </head>
@@ -13,42 +16,45 @@
     <div id="characters">
         <div id="sookies" class="character-cards">
             <h3 class="names">Sookie Stackhouse</h3>
-            <img class="images" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Sookie_%28TB%29.jpg/200px-Sookie_%28TB%29.jpg">
+            <img class="images" id="sookies-img" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Sookie_%28TB%29.jpg/200px-Sookie_%28TB%29.jpg">
             <button class="bios">Bio</button>
             <button class="statuses">Status</button>
         </div>
         <div id="billc" class="character-cards">
-            <h3 class="names">Sookie Stackhouse</h3>
+            <h3 class="names">Bill Compton</h3>
             <img class="images" src="https://upload.wikimedia.org/wikipedia/en/thumb/8/89/Bill_Compton.JPG/240px-Bill_Compton.JPG">
             <button class="bios">Bio</button>
             <button class="statuses">Status</button>
         </div>    
         <div id="ericn" class="character-cards">
-            <h3 class="names">Sookie Stackhouse</h3>
+            <h3 class="names">Eric Northman</h3>
             <img class="images" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Eric_Northman.jpg/240px-Eric_Northman.jpg">
             <button class="bios">Bio</button>
             <button class="statuses">Status</button>
         </div>    
         <div id="tarat" class="character-cards">
-            <h3 class="names">Sookie Stackhouse</h3>
+            <h3 class="names">Tara Thornton</h3>
             <img class="images" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/True_blood_tara_thornton.jpg/250px-True_blood_tara_thornton.jpg">
             <button class="bios">Bio</button>
             <button class="statuses">Status</button>
         </div>    
         <div id="lafayetter" class="character-cards">
-            <h3 class="names">Sookie Stackhouse</h3>
-            <img class="images" src="https://static.wikia.nocookie.net/headhuntersholosuite/images/6/63/True_Blood_1x01_018.jpg/revision/latest/scale-to-width-down/225?cb=20160105160005">
+            <h3 class="names">Lafayette Reynolds</h3>
+            <img class="images" src="https://www.trueblood-online.com/wp-content/uploads/2009/12/lafayette-223x300.jpg">
             <button class="bios">Bio</button>
             <button class="statuses">Status</button>
         </div>    
         <div id="samm" class="character-cards">
-            <h3 class="names">Sookie Stackhouse</h3>
+            <h3 class="names">Sam Merlotte</h3>
             <img class="images" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/ca/Trrue_blood_sam_merlotte.jpg/210px-Trrue_blood_sam_merlotte.jpg">
             <button class="bios">Bio</button>
             <button class="statuses">Status</button>
         </div>
     </div>    
-    <div id="sort-options"></div>
+    <div id="sort-options">
+        <button id="alphabetize">Alphabetize</button>
+        <button id="randomize">Randomize</button>
+    </div>
     <script src="app/app.js"></script>
 </body>
 </html>
